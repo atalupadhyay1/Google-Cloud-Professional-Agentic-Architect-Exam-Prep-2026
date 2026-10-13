@@ -48,6 +48,8 @@ The original course has **8 sections / 8 lectures / ~6h 06m**, built around the 
 
 \* Weights as listed on the public course page. **Verify against the current official exam guide** — treat any third-party weight as a study-planning aid, not a contract.
 
+> **🌐 Landing page:** Open [`index.html`](index.html) (or serve with `python3 -m http.server 8000`) for the interactive course landing page — curriculum explorer, 3-question architect quiz, readiness calculator, study-plan selector, flashcards and FAQ.
+
 **Start here first:** [`docs/00-start-here-blueprint-and-study-plans.md`](docs/00-start-here-blueprint-and-study-plans.md)
 
 ---
