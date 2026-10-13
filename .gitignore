@@ -1,0 +1,5 @@
+# Python workshop cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "it.mfa.01",
+    "title": "Set up or replace an MFA device",
+    "text": "For a new or replacement multi-factor authentication device, open the approved Account Security portal from the company intranet and follow the Add device or Replace device flow. If you are locked out, contact the Identity Support queue using the intranet support directory. Support staff will verify identity through the approved process. Never send a password, one-time code, recovery code, or access token in chat or email.",
+    "version": "3",
+    "tenant": "northstar",
+    "allowed_groups": [],
+    "valid_until": "2027-12-31"
+  },
+  {
+    "id": "it.vpn.02",
+    "title": "Troubleshoot the company VPN",
+    "text": "To troubleshoot the company VPN, first confirm that the device is enrolled and connected to the internet, then use the current VPN client from the company software catalog. If the connection still fails, record the client version and error code and open an IT support request. Do not share a private key or password with support.",
+    "version": "2",
+    "tenant": "northstar",
+    "allowed_groups": [],
+    "valid_until": "2027-12-31"
+  },
+  {
+    "id": "hr.payroll.01",
+    "title": "Payroll portal access for employees",
+    "text": "Employees who need payroll portal access should open the HR service catalog and choose Payroll access. A manager approves the request. Contractors should ask their sponsoring manager which approved process applies. Never send payroll credentials in chat.",
+    "version": "5",
+    "tenant": "northstar",
+    "allowed_groups": ["employees"],
+    "valid_until": "2027-12-31"
+  },
+  {
+    "id": "finance.forecast.04",
+    "title": "Quarterly finance forecast",
+    "text": "The internal quarterly forecast is confidential finance information. Distribution is limited to the Finance Planning group. Requests for broader access must be reviewed by the finance data owner.",
+    "version": "4",
+    "tenant": "northstar",
+    "allowed_groups": ["finance"],
+    "valid_until": "2027-12-31"
+  },
+  {
+    "id": "it.retired.01",
+    "title": "Retired MFA setup instructions",
+    "text": "The retired MFA instructions describe an older device setup process and should not be used. Contact the Identity Support queue for the current process.",
+    "version": "1",
+    "tenant": "northstar",
+    "allowed_groups": [],
+    "valid_until": "2024-01-01"
+  },
+  {
+    "id": "otherco.mfa.01",
+    "title": "Other tenant MFA procedure",
+    "text": "OtherCo staff use a separate identity portal for multi-factor authentication devices.",
+    "version": "1",
+    "tenant": "otherco",
+    "allowed_groups": [],
+    "valid_until": "2027-12-31"
+  }
+]
